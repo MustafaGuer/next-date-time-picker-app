@@ -1,0 +1,26 @@
+.gridContainer {
+}
+
+.grid {
+  display: grid;
+  border: 2px gray solid;
+  grid-template: repeat(5, 1fr) / repeat(7, 1fr);
+  width: 400px;
+  height: 300px;
+}
+
+.gridHead {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.gridHead div {
+  text-align: center;
+}
+
+.box {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
