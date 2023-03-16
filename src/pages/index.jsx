@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 // import Calendar from "@/components/Calendar";
 import ReactCalendar from "@/components/ReactCalendar";
+import ReactTimePicker from "@/components/ReactTimePicker";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,8 @@ export default function Home() {
       <main className="flex justify-center h-screen pt-10">
         {/* <Calendar /> */}
         <div className="flex flex-col gap-10">
+          <ReactTimePicker />
+          <hr />
           <ReactCalendar />
         </div>
       </main>
