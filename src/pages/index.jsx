@@ -17,7 +17,9 @@ export default function Home() {
       </Head>
       <main className="flex justify-center h-screen pt-10">
         {/* <Calendar /> */}
-        <ReactCalendar />
+        <div className="flex flex-col gap-10">
+          <ReactCalendar />
+        </div>
       </main>
     </>
   );
